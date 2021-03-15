@@ -1,0 +1,6 @@
+4713c9,127.0.0.1,GET,http://localhost:8001/search,1615832390,,200
+7125d6,127.0.0.1,GET,http://localhost:8001/favicon.ico,1615832390,2a07d9,404
+2a07d9,127.0.0.1,GET,http://localhost:8001/favicon.ico,1615832390,,404
+bdc4a6,127.0.0.1,GET,http://localhost:8001/liste,1615832392,,200
+2d0aaa,127.0.0.1,GET,http://localhost:8001/search,1615832394,,200
+229f84,127.0.0.1,POST,http://localhost:8001/search,1615832400,,200
