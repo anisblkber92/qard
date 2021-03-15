@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SearchController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+    .footer {
+        background-color: #F1F1F1;
+        text-align: center;
+        padding: 10px;
+        }
+</style>
+
+</br>
+</br>
+</br>
+<div class="d-flex flex-column min-vh-100" style="padding-top=100px;">
+    {% for history in contents %}
+        
+        <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>Lastname</th>
+            <th> Game </th>
+            <th>Team</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for player in history.joueurs %}
+            {% if player %}
+        <tr>
+            <td>{{history.id}}</td>
+            <td>{{player.getFirstName()}}</td>
+            <td>{{player.getNbgame()}}</td>
+            <td>{{player.getTeam()}}</td>
+        </tr>
+            {% endif %}
+        {% endfor %}
+        </tbody>
+  </table>
+    {% endfor %}
+</div>
+{% endblock %}
