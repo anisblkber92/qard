@@ -171,6 +171,6 @@ class __TwigTemplate_ce2b51a6c1fb2acc5b5bb600a3f815ebefa3b49405d84921441e5f1ed2d
         {%- endfor -%}
     </pre>
 {% endif %}
-", "@Doctrine/Collector/explain.html.twig", "/home/belkebir/Bureau/qard/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+", "@Doctrine/Collector/explain.html.twig", "/home/belkebir/Bureau/project/qard/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
     }
 }

@@ -63,6 +63,6 @@ class __TwigTemplate_fab2c98ec81429b95d2438e6d4810b286aba3723f98eb71029bfb887b60
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'button_widget', ['type' => \$type ?? 'submit']) ?>
-", "@Framework/Form/submit_widget.html.php", "/home/belkebir/Bureau/qard/vendor/symfony/framework-bundle/Resources/views/Form/submit_widget.html.php");
+", "@Framework/Form/submit_widget.html.php", "/home/belkebir/Bureau/project/qard/vendor/symfony/framework-bundle/Resources/views/Form/submit_widget.html.php");
     }
 }

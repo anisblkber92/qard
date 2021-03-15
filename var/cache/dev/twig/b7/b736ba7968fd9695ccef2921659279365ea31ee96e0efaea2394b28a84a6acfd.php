@@ -204,6 +204,6 @@ class __TwigTemplate_6eeb8da32967e6b5aafc48335567741acbb729f946f534171c4ff5c5700
         })|raw }}
     </div>
 {% endif %}
-", "@Twig/Exception/trace.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/twig-bundle/Resources/views/Exception/trace.html.twig");
+", "@Twig/Exception/trace.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/twig-bundle/Resources/views/Exception/trace.html.twig");
     }
 }

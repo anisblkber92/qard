@@ -275,6 +275,6 @@ class __TwigTemplate_caf349ac99d4b9cd6d9642c4760652dc09e86519080b92590b1c616f64b
     </body>
 </html>
 {% block after_html %}{% endblock %}
-", "@Twig/layout.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/twig-bundle/Resources/views/layout.html.twig");
+", "@Twig/layout.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/twig-bundle/Resources/views/layout.html.twig");
     }
 }

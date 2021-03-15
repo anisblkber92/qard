@@ -201,6 +201,6 @@ class __TwigTemplate_070fb4e8b34d1db2a02402d6c753d44903fba7b8e4f8a3eba2a6d0a515b
         </div>
     </div>
 {% endif %}
-", "@KnpPaginator/Pagination/tailwindcss_pagination.html.twig", "/home/belkebir/Bureau/qard/vendor/knplabs/knp-paginator-bundle/templates/Pagination/tailwindcss_pagination.html.twig");
+", "@KnpPaginator/Pagination/tailwindcss_pagination.html.twig", "/home/belkebir/Bureau/project/qard/vendor/knplabs/knp-paginator-bundle/templates/Pagination/tailwindcss_pagination.html.twig");
     }
 }

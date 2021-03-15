@@ -325,6 +325,6 @@ class __TwigTemplate_7c17d6d1293bb810b3496cbf42105587eef13d8eba024a91f3db183803b
     </ul>
 </div>
 {% endif %}
-", "@KnpPaginator/Pagination/twitter_bootstrap_pagination.html.twig", "/home/belkebir/Bureau/qard/vendor/knplabs/knp-paginator-bundle/templates/Pagination/twitter_bootstrap_pagination.html.twig");
+", "@KnpPaginator/Pagination/twitter_bootstrap_pagination.html.twig", "/home/belkebir/Bureau/project/qard/vendor/knplabs/knp-paginator-bundle/templates/Pagination/twitter_bootstrap_pagination.html.twig");
     }
 }

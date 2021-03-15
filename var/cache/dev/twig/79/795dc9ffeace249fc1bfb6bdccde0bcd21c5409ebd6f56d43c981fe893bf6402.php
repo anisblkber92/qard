@@ -189,6 +189,6 @@ class __TwigTemplate_6b7babb96ab077fb3183b6592b62cb050366e9623dc6c08f240f89f76ab
         </div>
     </div>
 </div>
-", "@Twig/Exception/traces.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
+", "@Twig/Exception/traces.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
     }
 }

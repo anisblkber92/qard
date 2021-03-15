@@ -135,6 +135,6 @@ class __TwigTemplate_56c1aa97a92ca9298bb44989bb30abfbd9de3c6636b1e62adfbaf27fe8f
         {% endfor %}
     </tbody>
 </table>
-", "@WebProfiler/Profiler/bag.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/bag.html.twig");
+", "@WebProfiler/Profiler/bag.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/bag.html.twig");
     }
 }

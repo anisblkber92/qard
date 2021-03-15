@@ -803,6 +803,6 @@ class __TwigTemplate_5f2d6d95c6159a7ff5f0f52ff10840c35151b65b1c37dbba5b7fdd02fa1
         </table>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/config.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/web-profiler-bundle/Resources/views/Collector/config.html.twig");
+", "@WebProfiler/Collector/config.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/web-profiler-bundle/Resources/views/Collector/config.html.twig");
     }
 }

@@ -174,6 +174,6 @@ class __TwigTemplate_468f70ab0a300cc677e2b47c4264e42698517cc86a4bf5754c04edff7f8
         {% endif %}
     </div>
 {% endblock %}
-", "@WebProfiler/Profiler/open.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.html.twig");
+", "@WebProfiler/Profiler/open.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.html.twig");
     }
 }

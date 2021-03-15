@@ -83,6 +83,6 @@ class __TwigTemplate_c8a1c518443d5b5bf7d13eb38154965d535d2fe2f0cfe7b08c71dd62b00
 {{ status_code }} {{ status_text }}
 
 */
-", "@Twig/Exception/error.js.twig", "/home/belkebir/Bureau/qard/vendor/symfony/twig-bundle/Resources/views/Exception/error.js.twig");
+", "@Twig/Exception/error.js.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/twig-bundle/Resources/views/Exception/error.js.twig");
     }
 }

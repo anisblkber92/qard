@@ -482,6 +482,6 @@ class __TwigTemplate_bdc7db5b6961bf40f7b6d3a9bb98ab6c833ec248bfeb8a9561de257eb07
         {% endfor %}
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/events.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
+", "@WebProfiler/Collector/events.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
     }
 }

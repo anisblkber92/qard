@@ -99,6 +99,6 @@ class __TwigTemplate_cf27676ae61a9ee8135045742e48a5bab0dfd1b736bf9778a79fde18fd3
             </trace>
 {% endfor %}
         </traces>
-", "@Twig/Exception/traces.xml.twig", "/home/belkebir/Bureau/qard/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
+", "@Twig/Exception/traces.xml.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
     }
 }

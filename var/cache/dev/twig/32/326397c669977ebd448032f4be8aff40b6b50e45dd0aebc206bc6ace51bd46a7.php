@@ -328,6 +328,6 @@ new Vue({
 })
 </script>
 {% endblock %}
-", "liste/index.html.twig", "/home/belkebir/Bureau/qard/templates/liste/index.html.twig");
+", "liste/index.html.twig", "/home/belkebir/Bureau/project/qard/templates/liste/index.html.twig");
     }
 }

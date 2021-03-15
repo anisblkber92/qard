@@ -285,6 +285,6 @@ class __TwigTemplate_f24b2d7f886a8388e99ba5f44d1233e813a28264a65bb23a71c41279dc6
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/home/belkebir/Bureau/nbaQard/qard/templates/base.html.twig");
+", "base.html.twig", "/home/belkebir/Bureau/project/qard/templates/base.html.twig");
     }
 }

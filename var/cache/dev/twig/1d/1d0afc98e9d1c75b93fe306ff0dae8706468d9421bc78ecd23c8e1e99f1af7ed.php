@@ -1671,6 +1671,6 @@ class __TwigTemplate_7314bc8a8f0ff25d44ac847fc57ba74b687a4778ee8a46b8f8da93afb52
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "/home/belkebir/Bureau/qard/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "/home/belkebir/Bureau/project/qard/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

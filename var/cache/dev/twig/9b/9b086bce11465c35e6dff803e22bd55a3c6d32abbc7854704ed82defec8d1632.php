@@ -65,6 +65,6 @@ class __TwigTemplate_a8c09e535ea2d3f71ad1560bd8be4a6ac9d6ecde240278f4dc77a03c015
     {
         return new Source("id=\"<?php echo \$view->escape(\$id) ?>\" name=\"<?php echo \$view->escape(\$full_name) ?>\"<?php if (\$disabled): ?> disabled=\"disabled\"<?php endif ?>
 <?php if (\$required): ?> required=\"required\"<?php endif ?>
-<?php echo \$attr ? ' '.\$view['form']->block(\$form, 'attributes') : '' ?>", "@Framework/Form/widget_attributes.html.php", "/home/belkebir/Bureau/qard/vendor/symfony/framework-bundle/Resources/views/Form/widget_attributes.html.php");
+<?php echo \$attr ? ' '.\$view['form']->block(\$form, 'attributes') : '' ?>", "@Framework/Form/widget_attributes.html.php", "/home/belkebir/Bureau/project/qard/vendor/symfony/framework-bundle/Resources/views/Form/widget_attributes.html.php");
     }
 }

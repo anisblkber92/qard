@@ -227,6 +227,6 @@ class __TwigTemplate_239d2a23f23cf9fac78156cdf0101789a5ad6a9b0b74a6b8577c50ee7dc
         </div>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/exception.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.html.twig");
+", "@WebProfiler/Collector/exception.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.html.twig");
     }
 }

@@ -193,6 +193,6 @@ class __TwigTemplate_dd6042e5cc0975a570b214c8e958ca31276c45c35b3cff740f88a601e05
         {% block body '' %}
     </body>
 </html>
-", "@WebProfiler/Profiler/base.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base.html.twig");
+", "@WebProfiler/Profiler/base.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base.html.twig");
     }
 }

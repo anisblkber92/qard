@@ -232,6 +232,6 @@ new Vue({
     })
 </script>
 {% endblock %}
-", "search/index.html.twig", "/home/belkebir/Bureau/qard/templates/search/index.html.twig");
+", "search/index.html.twig", "/home/belkebir/Bureau/project/qard/templates/search/index.html.twig");
     }
 }

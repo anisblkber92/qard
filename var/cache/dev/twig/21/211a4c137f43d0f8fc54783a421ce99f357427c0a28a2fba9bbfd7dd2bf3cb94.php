@@ -79,6 +79,6 @@ class __TwigTemplate_c0bffba2a8f3fe04265f7cf947d696721a4353f9a60211c57366288fd0c
 /*
 {{ include('@Twig/Exception/exception.txt.twig', { exception: exception }) }}
 */
-", "@Twig/Exception/exception.css.twig", "/home/belkebir/Bureau/qard/vendor/symfony/twig-bundle/Resources/views/Exception/exception.css.twig");
+", "@Twig/Exception/exception.css.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/twig-bundle/Resources/views/Exception/exception.css.twig");
     }
 }

@@ -898,6 +898,6 @@ class __TwigTemplate_188db8f3e381bbbf860f26870aaf04425e8cd5fe6e6762fd088e7fd9ba5
         </tbody>
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/translation.html.twig", "/home/belkebir/Bureau/qard/vendor/symfony/web-profiler-bundle/Resources/views/Collector/translation.html.twig");
+", "@WebProfiler/Collector/translation.html.twig", "/home/belkebir/Bureau/project/qard/vendor/symfony/web-profiler-bundle/Resources/views/Collector/translation.html.twig");
     }
 }
