@@ -80,9 +80,8 @@ class __TwigTemplate_a2f73fb4c076d554b677d47f2cdeff8b7bd0f086a6fe9b85898b4d582c0
      
     </div>
     <div class=\"container\">
-    ";
-        // line 37
-        echo "  <div id=\"list\">
+    
+  <div id=\"list\">
     
   <table class=\"table table-striped\">
     <thead>
@@ -98,15 +97,15 @@ class __TwigTemplate_a2f73fb4c076d554b677d47f2cdeff8b7bd0f086a6fe9b85898b4d582c0
 
       <tr v-for=\"p in players\">
         <td>";
-        // line 52
+        // line 32
         echo "{{ p.first_name }}";
         echo " </td>
         <td>";
-        // line 53
+        // line 33
         echo "{{ p.last_name }}";
         echo " </td>
         <td>";
-        // line 54
+        // line 34
         echo "{{ p.team.name }}";
         echo " </td>
       </tr>
@@ -117,8 +116,8 @@ class __TwigTemplate_a2f73fb4c076d554b677d47f2cdeff8b7bd0f086a6fe9b85898b4d582c0
     <ul class=\"pagination\">
         <li v-if='this.previous_page > 0' @click=\"showPlayers('previous')\" class=\"page-item\"><a class=\"page-link\">Previous</a></li>
         <li v-if='this.next_page > 0' class=\"page-item\"><span @click=\"showPlayers('next')\" class=\"page-link\" data-page=";
-        // line 62
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["contents"]) || array_key_exists("contents", $context) ? $context["contents"] : (function () { throw new RuntimeError('Variable "contents" does not exist.', 62, $this->source); })()), "meta", [], "array", false, false, false, 62), "next_page", [], "array", false, false, false, 62), "html", null, true);
+        // line 42
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["contents"]) || array_key_exists("contents", $context) ? $context["contents"] : (function () { throw new RuntimeError('Variable "contents" does not exist.', 42, $this->source); })()), "meta", [], "array", false, false, false, 42), "next_page", [], "array", false, false, false, 42), "html", null, true);
         echo ">Next</span></li>
     </ul>
   
@@ -136,13 +135,13 @@ new Vue({
   el: '#list',
   data: {
     joueurs: '";
-        // line 78
-        echo json_encode(twig_get_attribute($this->env, $this->source, (isset($context["contents"]) || array_key_exists("contents", $context) ? $context["contents"] : (function () { throw new RuntimeError('Variable "contents" does not exist.', 78, $this->source); })()), "data", [], "array", false, false, false, 78));
+        // line 58
+        echo json_encode(twig_get_attribute($this->env, $this->source, (isset($context["contents"]) || array_key_exists("contents", $context) ? $context["contents"] : (function () { throw new RuntimeError('Variable "contents" does not exist.', 58, $this->source); })()), "data", [], "array", false, false, false, 58));
         echo "',
     listPlayers: [],
     next_page: parseInt('";
-        // line 80
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["contents"]) || array_key_exists("contents", $context) ? $context["contents"] : (function () { throw new RuntimeError('Variable "contents" does not exist.', 80, $this->source); })()), "meta", [], "array", false, false, false, 80), "next_page", [], "array", false, false, false, 80), "html", null, true);
+        // line 60
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["contents"]) || array_key_exists("contents", $context) ? $context["contents"] : (function () { throw new RuntimeError('Variable "contents" does not exist.', 60, $this->source); })()), "meta", [], "array", false, false, false, 60), "next_page", [], "array", false, false, false, 60), "html", null, true);
         echo "'),
     previous_page: -1
   },
@@ -193,7 +192,7 @@ new Vue({
 
     public function getDebugInfo()
     {
-        return array (  145 => 80,  140 => 78,  121 => 62,  110 => 54,  106 => 53,  102 => 52,  85 => 37,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
+        return array (  144 => 60,  139 => 58,  120 => 42,  109 => 34,  105 => 33,  101 => 32,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -213,27 +212,7 @@ new Vue({
      
     </div>
     <div class=\"container\">
-    {# <table class=\"table table-striped\">
-    <thead>
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Team</th>
-      </tr>
-    </thead>
-    <tbody>
-
-    {% for players in contents['data'] %}
-        {% if players %}
-      <tr>
-        <td>{{players['first_name']}}</td>
-        <td>{{players['last_name']}}</td>
-        <td>{{players['team']['name']}}</td>
-      </tr>
-        {% endif %}
-    {% endfor %}
-    </tbody>
-  </table> #}
+    
   <div id=\"list\">
     
   <table class=\"table table-striped\">
@@ -310,6 +289,6 @@ new Vue({
 })
 </script>
 {% endblock %}
-", "liste/index.html.twig", "/home/belkebir/Bureau/qard/templates/liste/index.html.twig");
+", "liste/index.html.twig", "/home/belkebir/Bureau/project/qard/templates/liste/index.html.twig");
     }
 }

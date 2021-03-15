@@ -49,8 +49,7 @@ class SearchController extends AbstractController
         }else{
         
         $contents = $myService->getAllPlayers();
-        //dump($contents);
-        //die();
+        
         return $this->render('search/index.html.twig', [
             'contents' => $contents,
         ]);

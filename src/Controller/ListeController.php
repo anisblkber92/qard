@@ -19,7 +19,6 @@ class ListeController extends AbstractController
     public function liste( MyService $myService): Response
     {
         $contents = $myService->getAllPlayers();
-        dump($contents);
         return $this->render('liste/index.html.twig', [
             'contents' => $contents,
         ]);

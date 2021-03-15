@@ -15,7 +15,7 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
-    'liste' => [[], ['_controller' => 'App\\Controller\\ListeController::liste'], [], [['text', '/liste']], [], []],
     'search' => [[], ['_controller' => 'App\\Controller\\SearchController::index'], [], [['text', '/search']], [], []],
     'history' => [[], ['_controller' => 'App\\Controller\\SearchController::history'], [], [['text', '/history']], [], []],
+    'liste' => [[], ['_controller' => 'App\\Controller\\ListeController::liste'], [], [['text', '/']], [], []],
 ];

@@ -138,20 +138,32 @@ class __TwigTemplate_954f6f78b69f7c8fa0c35f0dcc38aaecf43a807377404fb04d17adb7abe
 
         // line 24
         echo "            <nav class=\"navbar navbar-expand-md navbar-dark fixed-top bg-dark\">
-            <a class=\"navbar-brand\" href=\"#\">NBA</a>
+            <a class=\"navbar-brand\" href=\"";
+        // line 25
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("liste");
+        echo "\">NBA</a>
             <button class=\"navbar-toggler collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
                 <span class=\"navbar-toggler-icon\"></span>
             </button>
             <div class=\"navbar-collapse collapse\" id=\"navbarCollapse\" style=\"\">
                 <ul class=\"navbar-nav mr-auto\">
                 <li class=\"nav-item active\">
-                    <a class=\"nav-link\" href=\"#\">Liste Joueurs <span class=\"sr-only\">(current)</span></a>
+                    <a class=\"nav-link\" href=\"";
+        // line 32
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("liste");
+        echo "\">Liste Joueurs <span class=\"sr-only\">(current)</span></a>
                 </li>
                 <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Comparaison</a>
+                    <a class=\"nav-link\" href=\"";
+        // line 35
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("search");
+        echo "\">Comparaison</a>
                 </li>
                 <li class=\"nav-item\">
-                    <a class=\"nav-link \" href=\"#\">Historique</a>
+                    <a class=\"nav-link \" href=\"";
+        // line 38
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("history");
+        echo "\">Historique</a>
                 </li>
                 </ul>
                 
@@ -183,7 +195,7 @@ class __TwigTemplate_954f6f78b69f7c8fa0c35f0dcc38aaecf43a807377404fb04d17adb7abe
 
     public function getDebugInfo()
     {
-        return array (  168 => 47,  140 => 24,  133 => 23,  120 => 14,  113 => 13,  105 => 10,  103 => 9,  96 => 8,  83 => 5,  74 => 48,  72 => 47,  69 => 46,  67 => 23,  63 => 21,  61 => 13,  58 => 12,  55 => 8,  51 => 5,  45 => 1,);
+        return array (  180 => 47,  165 => 38,  159 => 35,  153 => 32,  143 => 25,  140 => 24,  133 => 23,  120 => 14,  113 => 13,  105 => 10,  103 => 9,  96 => 8,  83 => 5,  74 => 48,  72 => 47,  69 => 46,  67 => 23,  63 => 21,  61 => 13,  58 => 12,  55 => 8,  51 => 5,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -212,20 +224,20 @@ class __TwigTemplate_954f6f78b69f7c8fa0c35f0dcc38aaecf43a807377404fb04d17adb7abe
     <body>
         {% block header %}
             <nav class=\"navbar navbar-expand-md navbar-dark fixed-top bg-dark\">
-            <a class=\"navbar-brand\" href=\"#\">NBA</a>
+            <a class=\"navbar-brand\" href=\"{{ path('liste') }}\">NBA</a>
             <button class=\"navbar-toggler collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
                 <span class=\"navbar-toggler-icon\"></span>
             </button>
             <div class=\"navbar-collapse collapse\" id=\"navbarCollapse\" style=\"\">
                 <ul class=\"navbar-nav mr-auto\">
                 <li class=\"nav-item active\">
-                    <a class=\"nav-link\" href=\"#\">Liste Joueurs <span class=\"sr-only\">(current)</span></a>
+                    <a class=\"nav-link\" href=\"{{ path('liste') }}\">Liste Joueurs <span class=\"sr-only\">(current)</span></a>
                 </li>
                 <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Comparaison</a>
+                    <a class=\"nav-link\" href=\"{{ path('search') }}\">Comparaison</a>
                 </li>
                 <li class=\"nav-item\">
-                    <a class=\"nav-link \" href=\"#\">Historique</a>
+                    <a class=\"nav-link \" href=\"{{ path('history') }}\">Historique</a>
                 </li>
                 </ul>
                 
@@ -237,6 +249,6 @@ class __TwigTemplate_954f6f78b69f7c8fa0c35f0dcc38aaecf43a807377404fb04d17adb7abe
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/home/belkebir/Bureau/qard/templates/base.html.twig");
+", "base.html.twig", "/home/belkebir/Bureau/project/qard/templates/base.html.twig");
     }
 }
